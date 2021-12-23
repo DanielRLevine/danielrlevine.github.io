@@ -1,0 +1,76 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+body#page1 {
+    background-image: url('../images/Blind_men_and_elephant4.jpg')
+}
+
+body#page2 {
+    background-image: url('../images/sneg-belka-novyi-god-zima.jpg');
+}
+
+body#page3 {
+    background-image: url('../images/BlackburnianWarblerNPS.jpg');
+}
+
+body#page4 {
+    background-image: url('../images/file-20191030-154716-1wc4d64.jpg');
+}
+
+body#page5 {
+    background-image: url('../images/Eagles-Fan-fusco-900x600.jpg');
+}
+
+body#page6 {
+    background-image: url('../images/emu-3479510_1280.jpg');
+}
+
+body#page7 {
+    background-image: url('../images/file-20210218-12-1vl8xif.jpg');
+}
+
+body#page8 {
+    background-image: url('../images/hero-image.fill.size_1200x1200.v1611611762.jpg');
+}
+
+body.no-repeat {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#container {
+    width: 40%;
+    padding: 20% 10% 0 10%;
+}
+
+div#container.high {
+    padding-top: 5%;
+}
+
+div#container.right {
+    padding: 10% 10% 0 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    div#container.right {
+        padding: 10% 10% 0 5%;
+    }
+}
+
+div#main-textbox {
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 2em;
+    padding: 2% 2%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgrey;
+    text-decoration: underline;
+}
